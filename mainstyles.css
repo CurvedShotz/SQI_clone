@@ -201,3 +201,61 @@
     background-color: #13208a;
     color: #d4eaf2;
 }
+
+
+
+
+
+
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 450px) {
+    .nav{
+        display: flex;
+        position: absolute;
+        scale: 140%;
+        width: 200%;
+        padding-left: 40px;
+    }
+
+    .nav-text{
+        display: none;
+    }
+
+    .welcome_screen{
+        display: block;
+    }
+
+    .welcome_page{
+        font-size: xx-large;
+    }
+
+    
+
+    .course_container{
+        display: block;
+    }    
+
+    .picture_container{
+        display: block;
+    }
+
+    .picture_container span {
+            display: flex;
+            font-weight: bolder;
+    }
+
+    .socials{
+        display: none;
+    }
+
+    .whatsapp{
+        display: flex;
+        position: fixed;  
+        gap: 10px;
+        top: 2000px;
+        left: 20px;
+    }
+}

@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: block;
+}
+
+.nav{
+    position: fixed;
+    height: 85px;
+    width: 100%;
+    border-bottom: solid 1px aqua;
+    padding: 10px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff; /* Add background color to prevent overlap issues */
+    z-index: 10; /* Ensure it stays above other elements */
+}
+
+.nav-text{
+    display: flex;
+    gap: 25px;
+    color: blue;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.sqi_logo{
+    width: 65px;
+    height: 65px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.socials{
+    position: fixed;
+    display: block;
+    top: 180px; 
+    left: 0px;
+    height: 120px;
+    width: 50px;
+    background-color: blueviolet;
+}
+
+.whatsapp{
+    display: flex;
+    position: fixed;  
+    gap: 10px;
+    top: 500px;
+    left: 20px;
+}
+
+.whatsapp_logo{
+    height: 60px;
+    width: 60px;
+}
+
+.wa-box{
+    height: 60px;
+    width: 150px;
+    background-color: antiquewhite;
+}
+
+
+.body {
+    margin-top: 85px; 
+    padding: 20px;
+    margin-left: 130px; 
+    margin-right: 130px;
+}
+
+.welcome_page{
+   justify-content: space-between;
+}
+
+.start_button{
+    background-color: #13208a;
+    height: 55px;
+    width: 130px;
+    border-radius: 15px;
+    border: 0;
+    color: #f2fcff;
+}
+
+.welcome_screen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture{
+    height: 340px;
+    width: 320px;
+}
+
+.picture_container{
+    display: flex;
+    gap: 40px;
+    margin: 20px
+}
+
+.courses{
+    display: block;
+    line-height: 30px;
+    margin: 10px;
+    color: #6a6466;
+}
+
+.course_container{
+    display: flex;
+}
+
+.special_text{
+    font-weight: bolder;
+}
+
+.course_text{
+    text-decoration: underline ;
+    line-height: 3;
+}
+
+.soft_img{
+    height: 200px;
+    width: 200;
+    border-radius: 20px;
+}
+
+.software_eng{
+    height: 900px;
+    width: 450px;
+    padding: 40px 40px;
+    background-color: #d4eaf2;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.ui_ux{
+    height: 900px;
+    width: 450px;
+    padding: 40px 40px;
+    background-color: #e0d5c0;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.ui_img{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.top_courses{
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    
+    color: #333333;
+    font-style: normal;
+    margin-top: 100px;
+    line-height: 15px;
+}
+
+.top_courses_container{
+    display: flex;
+    margin-bottom: 180px;
+}
+
+.logos{
+    margin-top: 50px;
+    scale: 80%;
+}
+
+.tour_page{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #13208a;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.yt_vid{
+    border-radius: 15px;
+    width: 340px;
+    height: 190px;
+    margin: 50px;
+}
+
+.tour_text{
+    display: block;
+    margin: 40px;
+}
+
+.apply_but{
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 30px;
+    border: 0;
+    background-color: #13208a;
+    color: #d4eaf2;
+}

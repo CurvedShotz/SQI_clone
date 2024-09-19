@@ -175,9 +175,10 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: #13208a;
+    background-color: darkblue;
     margin-left: 0px;
     margin-right: 0px;
+    color: #d4eaf2;
 }
 
 .yt_vid{
@@ -202,6 +203,18 @@
     color: #d4eaf2;
 }
 
+.testimonials{
+    margin: 20px;
+}
+
+.review-container{
+    display: flex;
+}
+
+.review-nox{
+    background-color: #f9f9f9;
+    border: 1px aqua solid;
+}
 
 
 

@@ -4,26 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SQI</title>
-    <link rel="stylesheet" href="/SQI_Website/mainstyles.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/SQI_Website/mainstyles.css">
+    <script src="https://kit.fontawesome.com/ba70256759.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
 
-        <div class="nav">
-            <img class="sqi_logo" src="/SQI_Website/media/icon.jpg">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="sqi_logo" src="/SQI_Website/media/icon.jpg"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <!-- Dropdown Menu 1 -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a class="dropdown-item" href="#">Web Development</a></li>
+                      <li><a class="dropdown-item" href="#">Mobile Development</a></li>
+                    </ul>
+                  </li>
         
-
-            <div class="nav-text">
-                <span>About &#9660;</span>
-                <span>Programmes &#9660;</span>
-                <span>Admission &#9660;</span>
-                <span>E-Portal &#9660;</span>
-                <span>SQI Scholarship</span>
-                <span>News</span>
+                  <!-- Dropdown Menu 2 -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li><a class="dropdown-item" href="#">Software</a></li>
+                      <li><a class="dropdown-item" href="#">Hardware</a></li>
+                    </ul>
+                  </li>
+        
+                  <!-- Dropdown Menu 3 -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                      <li><a class="dropdown-item" href="#">Tutorials</a></li>
+                      <li><a class="dropdown-item" href="#">Documentation</a></li>
+                    </ul>
+                  </li>
+        
+                  <!-- Dropdown Menu 4 -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                      <li><a class="dropdown-item" href="#">Email Us</a></li>
+                      <li><a class="dropdown-item" href="#">Call Us</a></li>
+                    </ul>
+                  </li>
+        
+                  <!-- Normal Item 1 -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+        
+                  <!-- Normal Item 2 -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            
-        </div>
+        </nav>
 
         <div class="body">
 
@@ -40,110 +93,81 @@
 
             <div class="welcome_screen">
                 <div class="welcome_page">
-                    <h1 class="study_text">Study to<br> become a<br> global talent</h1>
-                    <span>Learn new tech skills using a world-class curriculum from top <br> industry experts in an accredited institution</span>
-                    <br><button class="start_button">Start Now</button>
-                
+                    <h1 class="study_text" style="color: #000e42;">Study to become a global talent</h1>
+                    <p>Learn new tech skills using a world-class curriculum from top industry experts in an accredited institution.</p>
+                    <button class="start_button">Start Now</button>
                 </div>
-                
                 <img src="/SQI_Website/media/bg-header-sqi-1.png">
-                
             </div>
 
             <div class="second_page">
-                <h2>Start here. Change the world.</h2>
+              <h1>Start here. Change the world.</h1>
 
                 <div class="picture_container">
                     <div>
                         <img class="picture" src="/SQI_Website/media/college.jpg">
                         <h2>National Innovative Diploma (NID)</h2>
-                        <span>The National Innovation Diploma (NID)<br>offered at SQI College of ICT is a 2 year<br> approved academic program of the National<br> Board for Technical Education (NBTE).</span>
-
-                        <h3 class="learn_text">Learn More </h3>
+                        <p>The National Innovation Diploma (NID) offered at SQI College of ICT is a 2-year approved academic program of the National Board for Technical Education (NBTE).</p>
+                        <h5 class="learn_text"><a href="#">Learn More</a></h5>
                     </div>
-    
                     <div>
                         <img class="picture" src="/SQI_Website/media/prof.jpg">
-                        <h2>Professional Diploma<br>Certificate</h2>
-                        <span>The Professional Certificate Program is 1 year<br>practical training with wide range of edge-<br>cutting IT certification courses offered in SQI<br>College of ICT to people who want to<br>advance their career.</span>
-
-                        <h3 class="learn_text">Learn More </h3>
+                        <h2>Professional Diploma Certificate</h2>
+                        <p>The Professional Certificate Program is a 1-year practical training with a wide range of cutting-edge IT certification courses offered at SQI College of ICT for those looking to advance their careers.</p>
+                        <h5 class="learn_text"><a href="#">Learn More</a></h5>
                     </div>
-    
                     <div>
                         <img class="picture" src="/SQI_Website/media/certificate.jpg">
                         <h2>Certificate Program</h2>
-                        <span>The Certificate Program is a short-term<br>training, 2 weeks to 6 months with a wide<br>range of edge-cutting IT certification courses<br>offered in SQI College of ICT to people who<br> want to advance their careers.</span>
-
-                        <h3 class="learn_text">Learn More </h3>
+                        <p>The Certificate Program is a short-term training lasting 2 weeks to 6 months, offering cutting-edge IT certification courses for those advancing their careers.</p>
+                        <h5 class="learn_text"><a href="#">Learn More</a></h5>
                     </div>
-
                 </div>
 
                 <div class="course_container">
                     <div class="courses">
-                        <h3 style="color: black;" class="nat_dip">NATIONAL DIPLOMA COURSES</h3>
+                        <h3 class="nat_dip" style="color: black;">NATIONAL DIPLOMA COURSES</h3>
                         <div class="course_text"><span>Duration:</span><span>2 Years</span></div>
-    
-                        <div class="course_text"><span class="special_text">Certificate:</span><span>Both National Diploma and<br> Professional Diploma.</span></div>
-    
-                        <div class="course_text"><span class="special_text">Skills:</span><span>Institution recognized<br>skills and In-demand professional<br> skills.</span></div>                        
-                        
-                        <div class="course_text"><span class="special_text">Entry Requirements:</span><span>120 min in JAMB<br>5 Credits in O-Level, Your passion</span></div>
-    
-                        <div class="course_text"><span class="special_text">Required Hardware:</span><span>(usually Laptop)</span></div>
-    
-                        <div class="course_text"><span class="special_text">Direct Entry</span><span>(Any University)</span></div>
-    
-                        <div class="course_text"><span class="special_text">Access to Alumni Network and<br> Opportunities:</span><span>Yes.</span></div>
-    
+                        <div class="course_text"><span>Certificate:</span><span>Both National and Professional Diplomas</span></div>
+                        <div class="course_text"><span>Skills:</span><span>Academic Institution-recognized and in-demand professional skills</span></div>
+                        <div class="course_text"><span>Entry Requirements:</span><span>120 min JAMB, 5 Credits in O-Level, and passion</span></div>
+                        <div class="course_text"><span>Required Hardware:</span><span>(Usually Laptop)</span></div>
+                        <div class="course_text"><span>Direct Entry:</span><span>(Any University)</span></div>
+                        <div class="course_text"><span>Access to Alumni Network:</span><span>Yes(Any University)</span></div>
                     </div>
-    
                     <div class="courses">
                         <h3 style="color: black;">PROFESSIONAL DIPLOMA COURSES</h3>
-    
-                        <div class="course_text"><span class="special_text">Duration:</span><span>1 Year Courses</span></div>
-
-                        <div class="course_text"><span class="special_text">Certificate:</span><span>Professional Diploma</span></div>
-
-                        <div class="course_text"><span class="special_text">Skills:</span><span>In-demand professional skills</span></div>
-
-                        <div class="course_text"><span class="special_text">Entry Requirements:</span><span>Your passion</span></div>
-
-                        <div class="course_text"><span class="special_text">Required Hardware:</span><span>(usually Laptop)</span></div>
-
-                        <div class="course_text"><span class="special_text">Direct Entry:</span><span>(LAUTECH ODL)</span></div>
-
-                        <div class="course_text"><span class="special_text">Access to Alumni Network and<br> Opportunities:</span><span>Yes </span></div>
-    
+                        <div class="course_text"><span>Duration:</span><span>1 Year</span></div>
+                        <div class="course_text"><span>Certificate:</span><span>Professional Diploma</span></div>
+                        <div class="course_text"><span>Skills:</span><span>In-demand professional skills</span></div>
+                        <div class="course_text"><span>Entry Requirements:</span><span> Your Passion</span></div>
+                        <div class="course_text"><span>Required Hardware:</span><span>(Usually Laptop)</span></div>
+                        <div class="course_text"><span>Direct Entry:</span><span>Yes (LAUTECH ODL)</span></div>
+                        <div class="course_text"><span>Access to Alumni Network:</span><span>Yes</span></div>
                     </div>
-    
                     <div class="courses">
-                        <h3 style="color: black;">CERTIFICATE  PROGRAM</h3>
-
-                        <div class="course_text"><span class="special_text">Duration:</span><span>2 weeks to 6 months</span></div>
-
-                        <div class="course_text"><span class="special_text">Certificate:</span><span>Certificate Program</span></div>
-
-                        <div class="course_text"><span class="special_text">Skills:</span><span> In-demand professional skills</span></div>
-
-                        <div class="course_text"><span class="special_text">Entry Requirements:</span><span>Your passion</span></div>
-
-                        <div class="course_text"><span class="special_text">Required Hardware:</span><span>(usually Laptop)</span></div>
-
-                        <div class="course_text"><span class="special_text">Direct Entry:</span><span>No</span></div>
-
-                        <div class="course_text"><span class="special_text">Access to Alumni Network and<br>Opportunities:</span><span>Yes.</span></div>
-
-
+                        <h3 style="color: black;">CERTIFICATE PROGRAM</h3>
+                        <div class="course_text"><span>Duration:</span><span>2 weeks to 6 months</span></div>
+                        <div class="course_text"><span>Certificate:</span><span>Certificate Program</span></div>
+                        <div class="course_text"><span>Skills:</span><span>In-demand professional skills</span></div>
+                        <div class="course_text"><span>Entry Requirements:</span><span>Your Passion</span></div>
+                        <div class="course_text"><span>Required Hardware:</span><span>(Usually Laptop)</span></div>
+                        <div class="course_text"><span>Direct Entry:</span><span>No</span></div>
+                        <div class="course_text"><span>Access to Alumni Network:</span><span>Yes</span></div>
                     </div>
                 </div>
-                
-                <div>
-                    <h2>Our Top Courses</h2>
-                    <span>Take a look at some of our popular courses</span>
+            </div>
+      
 
-                    <a href="#">View all Courses</a>
+    
+    
+
+
+            <div>
+                  <h2>Our Top Courses</h2>
+                  <span>Take a look at some of our popular courses</span>
+
+                  <a href="#">View all Courses</a>
 
                     <div class="top_courses_container">
                         <div class="top_courses">
@@ -200,6 +224,8 @@
 
                     <h2>Our alumni work at world-class<br>companies around the world including</h2>
                         
+                  <div class="logo_container_main">
+
                     <div class="logos">
                         <img src="/SQI_Website/media/google.png">
                         <img src="/SQI_Website/media/Interswitch.png">
@@ -221,12 +247,15 @@
                         <img src="/SQI_Website/media/aella-credit.png">
                     </div>
 
+
+                  </div>
+
                 </div>              
             </div>
                 
-            </div>
-
-            <div class="tour_page">
+            
+        </div>
+          <div class="tour_page">
 
                 <iframe class="yt_vid" width="560" height="315" src="https://www.youtube.com/embed/HgC6bjMbqpw?si=ZEEUD8LcL0NKlzmi&amp;controls=0" title="SQI College OF ICT  " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -239,49 +268,255 @@
 
         <div class="testimonials">
             <div class="testi_text">
-                <h3>Testimonials</h3>
+                <h1><strong>Testimonials</strong></h1>
                 <span>Read what our current students and alumni have to say about their SQI experience.</span>
             </div>
 
-                        <h2>Customer Reviews</h2>
             <div class="reviews-container">
                 <div class="review-box">
-                    <p><strong>John Doe</strong></p>
-                    <p>Rating: 5 / 5</p>
-                    <p>"Excellent service and friendly staff!"</p>
+                    <img class="review" src="./media/review1.png">
                 </div>
-                <div class="review-box">
-                    <p><strong>Jane Smith</strong></p>
-                    <i class="fa-solid fa-star"></i>
-                    <p>"Good experience overall, would recommend."</p>
-                </div>
-                <div class="review-box">
-                    <p><strong>Mark Johnson</strong></p>
-                    <p>Rating: 5 / 5</p>
-                    <p>"Outstanding! Will come again for sure."</p>
+                <div>
+                    <img class="review_rest" src="./media/review_rest.png">
+
                 </div>
             </div>
 
         </div>
 
+        <h2 class="why_h2">Why study at SQI</h2>
         <div class="why_study">
-            <h2>Why study at SQI</h2>
+        
 
-            <div></div>
+            <div class="why_super_container">
+              <div class="why_container">
+                <i class="fa-solid fa-atom"></i>
+                <h3>Project Based Learning</h3>
+                <span>Our courses are practical, hands-on learning. Practice and apply knowledge with real world projects that contribute largely to your portfolio.</span>
+              </div>
+  
+              <div class="why_container">
+                <i class="fa-solid fa-water"></i>
+                <h3>Physical & Virtual Class</h3>
+                <span>You can now choose physical class experience or online classroom and learn from anywhere in the world.</span>
+              </div>
+  
+              <div class="why_container">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Certification</h3>
+                <span>Be certified by an accredited and globally recognized institution. SQI got its accreditation in Sept 2021 from the NBTE, Nigeria.</span>
+              </div>
+  
+              <div class="why_container">
+                <i class="fa-solid fa-suitcase"></i>
+                <h3>Job Opportunity</h3>
+                <span>78.5% of our students found secure employment within three months of graduation. Students leave from learning to getting job roles</span>
+              </div>
+            </div>
 
-            <div></div>
+            <div class="why_super_container">
+              <div class="why_container">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <h3>Expert Instructors</h3>
+                <span>Get to interact with different mentors and draw from their loads of experience.</span>
+              </div>
+  
+              <div class="why_container">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Free access to our hub and community</h3>
+                <span>You will have access to our fully functional hub for co-working and working on projects, assignments and even begin a start-up.</span>
+              </div>
+  
+              <div class="why_container">
+                <i class="fa-solid fa-comments"></i>
+                <h3>Alumni Support</h3>
+                <span>Our students have access to alumni who currently work at top tech organizations in the world such as Google, Microsoft, Interswitch etc.</span>
+              </div>
+  
+              <div class="why_container">
+                <i class="fa-solid fa-book"></i>
+                <h3>Access to study materials</h3>
+                <span>Students have access to prerecorded videos and resources they can make use of to further solidify their knowledge.</span>
+              </div>
+            </div>
 
-            <img>
+            <img class="why_image" src="./media/images.jpeg">
 
         </div>
 
         <div class="FAQ">
 
+           <div class="faq_first">
+            <span><strong>FAQ</strong></span>
+            <h1>Frequently Asked Questions</h1>
+
+            <span class="FAQ_text">Contact Us</span>
+           </div>
+           
+          <div class="faq_second">
+            <div class="container mt-5">
+              
+              
+              <div class="accordion" id="faqAccordion">
+                  
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                          <button class="faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              What is Bootstrap?
+                          </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                              Bootstrap is a powerful front-end framework for faster and easier web development. It includes HTML, CSS, and JavaScript components.
+                          </div>
+                      </div>
+                  </div>
+          
+                  
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                          <button class="faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              How do I install Bootstrap?
+                          </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                              You can install Bootstrap via a CDN link, or download the files locally to your project and link them.
+                          </div>
+                      </div>
+                  </div>
+          
+             
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                          <button class="faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              What are the main features of Bootstrap?
+                          </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                              Bootstrap offers responsive grid systems, pre-styled components like buttons and cards, and JavaScript plugins.
+                          </div>
+                      </div>
+                  </div>
+          
+               
+                  <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                          <button class="faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Can I customize Bootstrap styles?
+                          </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                          <div class="accordion-body">
+                              Yes, Bootstrap is highly customizable. You can override the default styles or use custom themes.
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+<div class="join-page">
+    <h3><strong>It’s time for you to take your tech career to the next level</strong></h3>
+    <h1><strong>Ready to Get Started?</strong></h1>
+    <span>We provide and lead others in quality education, service, industry, and character as well as discipline.</span>
+
+    <button class="join-btn">Join Us Today</button>
+</div>
+
+        <div class="latest-news">
+
+          <div class="news-head"><h2>Latest News</h2><button class="Read-btn">Read More</button>
+          </div>
+          <div class="news-main">
+            <div class="news-cont">
+              <img src="">
+              <span>SQI College of ICT Announces JAMB Cut-off Mark and Post-UTME Exam Date</span>
+              <span class="news-date">Aug 14, 2024</span>
+              <span>SQI College of ICT has announced its JAMB/UTME cut-off mark and the schedule for its upcoming Post-UTME examination, offering new opportunities for aspiring tech students in Nigeria. In a statement issued by its admission officer, Mr. Timothy Michael, the college has...</span>
+            </div>
+  
+            <div class="news-cont">
+              <img src="">
+              <span>SQI College of ICT Announces JAMB Cut-off Mark and Post-UTME Exam Date</span>
+              <span class="news-date">Aug 6, 2024</span>
+              <span>In a remarkable display of commitment to advancing technological education in Africa, the SQI College of ICT has successfully wrapped up its 14th annual SQI ICT Scholarship Program. The event drew an unprecedented number of participants, with over 8000 registrations...</span>
+            </div>
+  
+            <div class="news-cont">
+              <img src="">
+              <span>SQI College of ICT Announces JAMB Cut-off Mark and Post-UTME Exam Date</span>
+              <span class="news-date">May 27, 2024</span>
+              <span>The Rector, on behalf of the Governing Council, Academic Board, Management, Staff and Students of SQI College of ICT, heartily requests the esteem presence of parents/guardian, friends and the general public at the 5th Matriculation Ceremony of the College. The...</span>
+            </div>
+  
+          </div>
         </div>
 
 
-        <div class="footer"></div>
+      <div class="footer">
 
+        <div>
+            <h3>Hello, we’re SQI College of ICT</h3>
+            <span>We provide and lead others in quality ICT education.</span>
+            <div class="foot-icons"></div>
+            <span>Send us a mail
+              enquiry@edu.sqi.ng</span>
+        </div>
+
+        <div class="foots foot-links">
+            <span><strong>Quick Links</strong></span>
+            <span>Application Portal</span>
+            <span>Student Portal</span>
+            <span>Professional Courses</span>
+            <span>NID Courses</span>
+            <span>Campus Info</span>
+            <span>Accomodation</span>
+            <span>SQI Scholarship</span>
+            <span>Donate</span>
+        </div>
+        
+
+        <div class="foots foot-loc">
+            <span>Old Ilorin Road,</span>
+            <span>Opposite Yoaco Filling Station,</span>
+            <span>Yoaco, Ogbomoso.</span>
+            <span>0906 281 9991, 0906 281 9993</span>
+            <a>Locate on the map</a>
+        </div>
+
+        <div class="foots foot-ibd">
+            <span>First Floor, H25 Heritage Mall,</span>
+            <span>Opposite Central Bank of Nigeria,</span>
+            <span>Dugbe, Ibadan.</span>
+            <span>0906 281 9994</span>
+            <a>Locate on the map</a>
+
+            <span>Christianah Oyinade Ajoke House, beside First Bank, Arisekola Central Mosque, Opposite Jaiz bank, Idi Ape, Iwo road, Ibadan.</span>
+            <span>0906 281 9995</span>
+            <a>Locate on the map</a>
+            <span>Haier Thermocool Building, opposite SAO filling station, Challenge, Ibadan, Oyo State.</span>
+            <span>0906 281 9994</span>
+            <a>Locate on the map</a>
+        </div>
+
+        <div class="foots foot-abk">
+              <span><strong>Abeokuta</strong></span>
+              <span>First floor, OPIC Tower building, Okeilewo, Abeokuta.</span>
+              <span>0906 281 9996</span>
+              <a>Locate on the map</a>
+
+              <span>        </span>
+              <span><strong>Osogbo</strong></span>
+              <span>Opposite Jaiz bank, Ogo-Oluwa, Osogbo</span>
+              <span><strong>0906 281 9997</strong></span>
+              <a>Locate on the map</a>
+        </div>
+      </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

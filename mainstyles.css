@@ -22,10 +22,6 @@
     
 }
 
-.collapse{
-    margin-left: 360px;
-    
-}
 
 .nav-link{
     color: #081f89;
@@ -48,6 +44,8 @@
     padding: 0px;
 }
 
+
+
 .sqi_logo{
     width: 65px;
     height: 65px;
@@ -62,8 +60,56 @@
     top: 180px; 
     left: 0px;
     height: 120px;
-    width: 50px;
+    width: 30px;
     background-color: blueviolet;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.fa-brands{
+    
+    color: white;
+}
+
+.soc-f{
+    background-color: #3a579b;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-top-right-radius: 5px;
+}
+
+.soc-t{
+    background-color: #57acf1;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.soc-l{
+    background-color: #3d7bb6;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+}
+
+.soc-f:hover{
+    transition: ease-in 300ms;
+    width: 28px;
+    margin-left: 5px;
+}
+
+.soc-t:hover{
+    transition: ease-in 300ms;
+    width: 28px;
+    margin-left: 5px;
+}
+
+.soc-l:hover{
+    width: 28px;
+    margin-left: 5px;
+    transition: ease-in 300ms;
 }
 
 .whatsapp{
@@ -72,6 +118,7 @@
     gap: 10px;
     top: 500px;
     left: 20px;
+    padding: 30px;
 }
 
 .whatsapp_logo{
@@ -83,6 +130,7 @@
     height: 60px;
     width: 150px;
     background-color: antiquewhite;
+    border-radius: 5px;
 }
 
 
@@ -95,7 +143,25 @@
 
 .welcome_page{
    justify-content: space-between;
-   margin-top: 100px;
+   margin-top: 100px; 
+}
+
+.dropdown-menu{
+    opacity: 80%;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+  
+}
+
+.dropdown-menu:hover{
+    transition: opacity 2s ease-in, transform 2s ease-in;
+}
+
+.welcome_page h1{
+    font-size: 60px;
+    font-weight: 900;
 }
 
 .welcome_text{
@@ -127,6 +193,7 @@
 .picture{
     height: 340px;
     width: 320px;
+    filter: grayscale(100%);
 }
 
 .picture_container{
@@ -137,6 +204,16 @@
     margin-top: 30px;
     padding: 30px;
     justify-content: center;
+}
+
+.certs{
+    text-align: left;
+}
+
+.learn_text{
+    align-items: end;
+    text-decoration: underline #283547;
+    text-underline-offset: 10px;
 }
 
 .second_page h1{
@@ -340,72 +417,73 @@
     display: flex;
 }
 
+.faq_button{
+    color: #ce9728;
+}
+
 .faq_first{
     margin: 30px;
     padding: 50px;
-}
-
-.accordion{
+    color: white;
     
-    width: 70%;
-    padding: 50px;
-    border: none;
-
 }
+
+
 
 .faq-button {
     background: none;
     border: none;
     padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 1.2rem;
     text-align: left;
-    color: #fff
+    text-decoration: underline 1px #ce9a19;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-underline-offset: 10px;
+    color: #ce9a19;
     position: relative;
     display: inline-block;
     cursor: pointer;
+    width: 100%;
 }
 
-.faq-button:after {
-    content: '';
-    position: absolute;
-    width: 70%;
-    height: 0;
-    background-color: #fff
-    bottom: -2px;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.3s ease;
+.accordion-collapse{
+    display: flex;
+    text-align: left;
 }
 
 .accordion-item {
-    background-color: #0a0326; /* Change background of accordion item */
+    background-color: #0a0326; 
     border: none;
     margin-bottom: 10px;
-    color: #fff; /* Ensure text is white */
+    color: #fff; 
+    text-align: left;
 }
 
-.accordion-body {
-    background-color: #0a0326; /* Match the body background */
-    color: #fff;
-    padding-left: 10px;
-}
+
 
 
 .faq-button:focus {
     outline: none;
 }
 
-.accordion-body {
-    padding-left: 10px;
-}
+
 
 .news-head{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
     gap: 40px;
-    
+}
+
+.news-head h1{
+    font-size: 54px;
+    font-weight: 700;
 }
 
 .news-cont{
@@ -437,13 +515,14 @@
 }
 
 .join-page{
-    background-color: navy;
+    background-color: #050b40;
     height: 70%;
     line-height: 2;
     padding: 70px;
-    font-size: 24px;
+    font-size: 10px;
     color: #d4eaf2;
 }
+
 
 .join-page span{
     line-height: 1;
@@ -458,21 +537,53 @@
     border: 0;
     background-color: blue;
     color: #d4eaf2;
-    padding: 5px;
+    padding: 10px;
 }
+
+.latest-news{
+    justify-content: center;
+}
+
+
+
+.Read-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 30px;
+    border: 0;
+    background-color: blue;
+    color: #d4eaf2;
+    padding: 10px;
+}
+
 
 .footer{
     display: flex;
     margin: 30px;
+    padding: 30px;
+    justify-content: center;
    
+}
+
+.footer p{
+    color: #679abd;
 }
 
 .foots{
     display: flex;
     flex-direction: column;
-    padding: 40px;
-    gap: 25px;
+    padding: 90px;
+    gap: 10px;
+    font-size: medium;
+    padding: 20px;
+}
+
+.chr{
+    padding-right: 15px;
+    width: 200px;
     font-size: small;
+    margin: 10px;
 }
 
 .end{
@@ -485,57 +596,400 @@
 
 /* RESPONSIVE DESIGN */
 
+/* Responsive for Mobile Screens (max-width: 450px) */
 @media screen and (max-width: 450px) {
-    .nav{
-        display: flex;
-        position: fixed;
-        scale: 140%;
-        width: 200%;
-        padding-left: 40px;
-    }
-
-    .sqi_logo{
-        width: 30px;
-        height: 10px;
-        scale: 10%;
-    }
-
-    .nav-text{
-        display: none;
-    }
-
-    .welcome_screen{
-        display: block;
-    }
-
-    .welcome_page{
-        font-size: xx-large;
-    }
-
     
 
-    .course_container{
-        display: block;
-    }    
-
-    .picture_container{
-        display: block;
+    *{
+        font-size: large;
     }
-
-    .picture_container span {
-            display: flex;
-            font-weight: bolder;
-    }
-
-    .socials{
-        display: none;
+    
+    .navbar {
+        flex-direction: column; 
+        height: auto;
+        padding: 10px;
     }
 
     .whatsapp{
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+
+
+    .sqi_logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .socials {
+        display: none;  
+    }
+
+    .container{
+        margin-left: 50px;
+        width: 100%;
+    }
+
+    .body{
+        width: 300%;
+    }
+    
+    
+    .welcome_screen {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    .welcome_page h1{
+        font-size: 64px;
+    
+    }
+
+    .start_button {
+        width: 50px;
+        margin-top: 10px;
+    }
+
+   
+    .course_container {
+        display: block;
+        margin-left: 15%; 
+        margin-right: 25%;
+        margin-top: 35%;
+        margin-bottom: 35%;
+        scale: 150%;
+    }
+
+    .second_page{
+        display: block;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .second_page h1{
         display: flex;
-        position: fixed;  
-        gap: 10px;
-        top: 2000px;
-        left: 20px;
+        justify-content: center;
+    }
+     
+    .picture{
+        margin: 15%;
+        scale: 150%;
+    }
+
+    .courses {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    .picture_container {
+        display: block;
+        margin: 30px;
+        margin-bottom: 120px;
+        align-items: center;
+    }
+
+    .tour_page{
+        width: 336%;
+        font-size: larger;
+        right: 0;
+    }
+
+    .testimonials {
+        display: none;
+    }
+
+    .review {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .why_study {
+        display: block;
+        padding: 10px;
+        margin: 50%;
+        width: 200%;
+       
+    }
+
+    .why_super_container {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .why_container {
+        padding: 20px;
+    }
+
+    .why_image {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .why_h2 {
+        font-size: 24px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    
+   
+
+    .accordion{
+        width: 150%;
+    }
+
+    .FAQ {
+        flex-direction: column;
+        width: 300%;
+        align-items: center;
+    }
+
+    .faq_first {
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .faq_button {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .accordion-body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .accordion-item{
+        width: 50%;
+    }
+
+    .join-page{
+        width: 333%;
+    }
+
+    .testimonials {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .testi_text h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .review-box {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .review_rest {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    
+    .footer {
+        flex-direction: row;
+        text-align: center;
+        padding: 10px;
+        
+    }
+
+    .foots {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .foot-loc, .foot-ibd, .foot-abk {
+        margin-top: 20px;
+    }
+
+    .end {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+}
+
+
+/* Responsive for Tablet Screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    
+    .navbar {
+        padding: 15px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+   
+    .sqi_logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .socials {
+        height: 60px;
+        width: 20px;
+    }
+
+   
+    .welcome_screen {
+        margin: 0;
+        padding: 30px;
+    }
+
+    .welcome_page h1 {
+        font-size: 36px;
+    }
+
+    .start_button {
+        width: 80%;
+    }
+
+
+    .course_container {
+        flex-direction: column;
+    }
+
+  
+    .top_courses_container {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .super_course {
+        width: 100%;
+        height: auto;
+    }
+
+ 
+    .reviews-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .review {
+        width: 100%;
+        height: auto;
+    }
+
+  
+    
+
+     .why_study {
+        display: block;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .why_super_container {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .why_container {
+        padding: 30px;
+    }
+
+    .why_image {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .why_h2 {
+        font-size: 28px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    .FAQ {
+        flex-direction: column;
+        width: 333%;
+        align-items: center;
+    }
+
+    .faq_first {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .faq_button {
+        width: 100%;
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .accordion-body {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .testimonials {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .testi_text h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .review-box {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .review_rest {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .footer {
+        display: flex;
+        
+        text-align: center;
+        padding: 200px;
+        
+        
+        margin-left: 100%;
+    }
+
+    .foots {
+        padding: 20px;
+        margin-bottom: 30px;
+        font-size: 64px;
+    }
+
+    .foot-loc, .foot-ibd, .foot-abk {
+        margin-top: 30px;
+    }
+
+    .end {
+        padding: 25px;
+        font-size: 14px;
+        width: 333%;
     }
 }
+

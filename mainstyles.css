@@ -18,10 +18,8 @@
     height: 85px;
     border-bottom: 1px solid aqua;
     padding: 20px;
-    z-index: 1000; 
-    
+    z-index: 1000;   
 }
-
 
 .nav-link{
     color: #081f89;
@@ -133,7 +131,6 @@
     border-radius: 5px;
 }
 
-
 .body {
     margin-top: 60px; 
     padding: 20px;
@@ -169,11 +166,8 @@
     line-height: 70.4px;
     font-weight: bolder;
     font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
-    font-size: larger;
-    
-    
+    font-size: larger;  
 }
-
 
 .start_button{
     background-color: #13208a;
@@ -224,7 +218,6 @@
     color: #081f89;
     margin-left: -100px;
 }
-
 
 .courses{
     display: block;
@@ -298,8 +291,6 @@
     margin-top: 100px;
     line-height: 15px;
 }
-
-
 
 .top_courses_container{
     display: flex;
@@ -428,8 +419,6 @@
     
 }
 
-
-
 .faq-button {
     background: none;
     border: none;
@@ -463,14 +452,9 @@
     text-align: left;
 }
 
-
-
-
 .faq-button:focus {
     outline: none;
 }
-
-
 
 .news-head{
     display: flex;
@@ -523,7 +507,6 @@
     color: #d4eaf2;
 }
 
-
 .join-page span{
     line-height: 1;
     
@@ -544,8 +527,6 @@
     justify-content: center;
 }
 
-
-
 .Read-btn{
     width: 100px;
     height: 50px;
@@ -556,7 +537,6 @@
     color: #d4eaf2;
     padding: 10px;
 }
-
 
 .footer{
     display: flex;
@@ -595,11 +575,9 @@
 }
 
 /* RESPONSIVE DESIGN */
-
 /* Responsive for Mobile Screens (max-width: 450px) */
 @media screen and (max-width: 450px) {
     
-
     *{
         font-size: large;
     }
@@ -618,7 +596,6 @@
         font-size: 12px;
     }
 
-
     .sqi_logo {
         width: 40px;
         height: 40px;
@@ -636,8 +613,7 @@
     .body{
         width: 300%;
     }
-    
-    
+     
     .welcome_screen {
         display: block;
         text-align: center;
@@ -657,7 +633,6 @@
         margin-top: 10px;
     }
 
-   
     .course_container {
         display: block;
         margin-left: 15%; 
@@ -687,8 +662,7 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
-    
+ 
     .picture_container {
         display: block;
         margin: 30px;
@@ -744,9 +718,6 @@
         margin-left: 0;
         text-align: center;
     }
-
-    
-   
 
     .accordion{
         width: 150%;
@@ -804,7 +775,6 @@
         margin-top: 20px;
     }
 
-    
     .footer {
         flex-direction: row;
         text-align: center;
@@ -828,7 +798,6 @@
 
 }
 
-
 /* Responsive for Tablet Screens (max-width: 768px) */
 @media screen and (max-width: 768px) {
     
@@ -839,8 +808,7 @@
     .nav-link {
         font-size: 14px;
     }
-
-   
+  
     .sqi_logo {
         width: 50px;
         height: 50px;
@@ -850,8 +818,7 @@
         height: 60px;
         width: 20px;
     }
-
-   
+ 
     .welcome_screen {
         margin: 0;
         padding: 30px;
@@ -864,7 +831,6 @@
     .start_button {
         width: 80%;
     }
-
 
     .course_container {
         flex-direction: column;
@@ -881,7 +847,6 @@
         height: auto;
     }
 
- 
     .reviews-container {
         flex-direction: column;
         align-items: flex-start;
@@ -891,9 +856,6 @@
         width: 100%;
         height: auto;
     }
-
-  
-    
 
      .why_study {
         display: block;
@@ -921,7 +883,6 @@
         margin-left: 0;
         text-align: center;
     }
-
 
     .FAQ {
         flex-direction: column;
